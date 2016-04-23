@@ -24,6 +24,7 @@ object InfixType_55 {
     val case_class = Cons("java","scala")
     case_class match{
       case "java" Cons "scala" => println("spark!!!") //unapply
+      
     }
     
   }
